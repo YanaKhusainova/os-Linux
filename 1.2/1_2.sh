@@ -1,4 +1,4 @@
-$ gcc -o fred.c bill.c
+$ gcc -c fred.c bill.c
 $ ls *.o
 $ gcc -c program.c
 $ gcc -o program program.o bill.o
