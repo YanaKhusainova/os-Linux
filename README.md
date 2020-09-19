@@ -33,7 +33,7 @@ void bill(char* arg) {
 }
 ```
 ### bush
-gcc -o fred.c bill.c
+gcc -c fred.c bill.c
 
 ls *.o
 
