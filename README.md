@@ -59,6 +59,13 @@ int main() {
 ### bush
 ![image](https://user-images.githubusercontent.com/63101910/93663017-3e310280-fa6d-11ea-99cd-acad9d88e382.png)
 
+## Ex.3
+### bush
+man gcc
+
+### output
+![image](https://user-images.githubusercontent.com/63101910/93664573-9faa9e80-fa78-11ea-98b3-2809b251d9ef.png)
+
 
 
 
