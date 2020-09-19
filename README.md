@@ -34,6 +34,7 @@ void bill(char* arg) {
 ```
 ### bush
 gcc -o fred.c bill.c
+
 ls *.o
 
 ### output
