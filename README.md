@@ -107,7 +107,25 @@ exit 0
 ### bush
 ![image](https://user-images.githubusercontent.com/63101910/94337726-78624d00-fff5-11ea-9fe1-c102cec27037.png)
 
+## Ex.2_3
+### 2_3.sh
+```C
+echo "Is it morning? yes or no "
+read timeofday
 
+if [ "$timeofday" = "yes" ]
+then
+   echo "Good morning"
+elif [ "$timeofday" = "no" ]; then
+  echo "Good afternoon"
+else
+  echo "Sorry, $timeofday not recognized"
+exit 1
+fi
+exit 0
+```
+### bush
+![image](https://user-images.githubusercontent.com/63101910/94338420-b31ab400-fffa-11ea-8684-1c14f427b7cc.png)
 
 
 
