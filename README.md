@@ -85,6 +85,28 @@ exit 0
 ### bush 
 ![image](https://user-images.githubusercontent.com/63101910/94337392-b90c9700-fff2-11ea-8960-91635840d1b9.png)
 
+## Ex.2_2
+### 2_2.sh
+```C
+#!/bin/sh
+
+salutation="Hello"
+echo $salutation
+echo "The program $0 is now running"
+echo "The second parameter was $2"
+echo "The first parameter was $1"
+echo "The parameter list was $*"
+echo "The user's home directory is $HOME"
+echo "Please enter a new greeting"
+read salutation
+
+echo $salutation
+echo "The script is now complete"
+exit 0
+```
+### bush
+![image](https://user-images.githubusercontent.com/63101910/94337726-78624d00-fff5-11ea-9fe1-c102cec27037.png)
+
 
 
 
