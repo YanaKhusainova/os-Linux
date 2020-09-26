@@ -127,6 +127,20 @@ exit 0
 ### bush
 ![image](https://user-images.githubusercontent.com/63101910/94338420-b31ab400-fffa-11ea-8684-1c14f427b7cc.png)
 
+## Ex.2_4
+### 2_4.sh
+```C
+#!/bin/sh
+
+for foo in bar fud 43
+do
+  echo $foo
+done
+exit 0
+```
+### bush
+![image](https://user-images.githubusercontent.com/63101910/94338675-d6466300-fffc-11ea-9053-bcc767ff8faf.png)
+
 
 
 
