@@ -1,5 +1,5 @@
 # os-Linux
-## Ex.1
+## Ex.1_1
 ### hello.c
 ```C
 #include<stdio.h>
@@ -14,7 +14,7 @@ int main()
 ### bush
 <img width="358" alt="screenshot 1 1" src="https://user-images.githubusercontent.com/63101910/93661784-3ff5c880-fa63-11ea-877a-b9f7fa990676.PNG">
 
-## Ex.2
+## Ex.1_2
 ### fred.c
 ```C
 #include <stdio.h>
@@ -59,12 +59,32 @@ int main() {
 ### bush
 ![image](https://user-images.githubusercontent.com/63101910/93663017-3e310280-fa6d-11ea-99cd-acad9d88e382.png)
 
-## Ex.3
+## Ex.1_3
 ### bush
 man gcc
 
 ### output
 ![image](https://user-images.githubusercontent.com/63101910/93664573-9faa9e80-fa78-11ea-98b3-2809b251d9ef.png)
+
+## Ex.2_1
+### 2_1.sh
+```C
+#!/bin/sh
+myvar="Hi there"
+echo $myvar
+echo "$myvar"
+echo '$myvar'
+echo \$myvar
+
+echo Enter some text
+read myvar
+
+echo '$myvar' now equals $myvar
+exit 0
+```
+### bush 
+![image](https://user-images.githubusercontent.com/63101910/94337392-b90c9700-fff2-11ea-8960-91635840d1b9.png)
+
 
 
 
